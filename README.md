@@ -2,9 +2,12 @@
 
 Un workflow n8n pour créer automatiquement de nouveaux dépôts sur GitHub, simplifiant la mise en place de nouveaux projets et assurant la cohérence des configurations initiales.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ## Table des Matières
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Table des Matières
 
 - [n8n Workflow : Automatisation de la Création de Dépôts GitHub](#n8n-workflow--automatisation-de-la-création-de-dépôts-github)
+  - [Table des Matières](#table-des-matières)
   - [Description](#description)
   - [Fonctionnalités](#fonctionnalités)
   - [Le Fichier JSON du Workflow](#le-fichier-json-du-workflow)

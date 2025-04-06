@@ -49,29 +49,28 @@
     },
     {
       "parameters": {
-        "authentication": "accessToken", // ou 'oAuth2' selon tes credentials
+        "authentication": "accessToken",
         "resource": "repository",
         "operation": "create",
         "name": "={{ $json.repoName }}",
         "description": "={{ $json.description }}",
         "visibility": "={{ $json.visibility }}",
         "options": {
-          "auto_init": "={{ $json.initialize }}" // Pour créer un README initial
-          // Tu peux ajouter d'autres options ici si besoin :
-          // "gitignore_template": "Node",
-          // "license_template": "mit"
+          "auto_init": "={{ $json.initialize }}",
+          "gitignore_template": "Node",
+          "license_template": "mit"
         }
       },
       "name": "Créer Dépôt GitHub",
       "type": "n8n-nodes-base.github",
-      "typeVersion": 1, // Vérifie la version si tu utilises une version plus récente de n8n
+      "typeVersion": 1,
       "position": [
         1000,
         300
       ],
-      "credentials": { // IMPORTANT: Tu dois configurer tes credentials GitHub dans n8n
+      "credentials": {
         "githubApi": {
-          "id": "YOUR_GITHUB_CREDENTIALS_ID", // Remplace par l'ID de tes credentials GitHub dans n8n
+          "id": "YOUR_GITHUB_CREDENTIALS_ID",
           "name": "Nom de tes credentials GitHub"
         }
       },
